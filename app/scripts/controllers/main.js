@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name chartBeatApp.controller:MainCtrl
+ * @name domoHacksApp.controller:MainCtrl
  * @description
  * # MainCtrl
- * Controller of the chartBeatApp
+ * Controller of the domoHacksApp
  */
-angular.module('chartBeatApp')
+angular.module('domoHacksApp')
   .controller('MainCtrl', function ($scope, $http, getStuffFactory) {
 
   	window.MY_SCOPE = $scope;
